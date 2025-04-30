@@ -1,0 +1,436 @@
+body {
+    font-family: "poppins", sans-serif;
+    background-color: black;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+}
+.logo {
+    font-size: 25px;
+    color: rgb(254, 210, 48);
+    text-decoration: none;
+}
+nav {
+    font-size: 15px;
+    display: flex;
+    gap: 40px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    padding-bottom: 3px;
+}
+p {
+    font-size: 15px;
+}
+a:hover {
+    color: rgb(254, 210, 48);
+    padding-bottom: 3px;
+    font-weight: 700;
+    border-bottom: 2px rgb(254, 210, 48) solid;
+}
+span {
+    cursor: pointer;
+}
+h1 {
+    font-size: 40px;
+    margin: 0;
+}
+h3 {
+    margin: 0;
+    font-size: 30px;
+}
+.image {
+    text-align: center;
+}
+img {
+    width: 45%;
+    border-radius: 100%;
+}
+section {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    color: white;
+}
+span {
+    font-weight: 800;
+    color: rgb(254, 210, 48);
+}
+dl {
+    margin: 0;
+    color: rgb(254, 210, 48);
+}
+
+.description {
+    font-size: 13px;
+    color: white;
+}
+i {
+    color: rgb(254, 210, 48);
+}
+.social-icon {
+    margin-top: 20px;
+    font-size: 25px;
+}
+.social-icon a {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    margin: 0px;
+}
+#name {
+    font-weight: 600;
+}
+#title {
+    font-weight: 600;
+}
+.link-call {
+    /* text-align: center; */
+    margin-left: 30px;
+}
+#hear {
+    display: inline-block;
+    margin-top: 30px;
+    color: rgb(254, 210, 48);
+    font-size: 20px;
+}
+#hear:hover {
+    background-color: rgb(254, 210, 48);
+    color: black;
+    border-radius: 30px;
+    padding: 10px 15px;
+}
+
+/* ======================================================== */
+@media (max-width: 378px) {
+    img {
+        width: 185px;
+        height: 167px;
+        margin-top: 20px;
+    }
+    header {
+        display: flex;
+        justify-content: space-around;
+        /* margin-top: 20px; */
+        align-items: baseline;
+    }
+    .logo {
+        font-size: 20px;
+        color: rgb(254, 210, 48);
+        text-decoration: none;
+    }
+    nav {
+        font-size: 15px;
+        display: flex;
+        gap: 16px;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        padding-bottom: 3px;
+    }
+    a:hover {
+        color: rgb(254, 210, 48);
+        padding-bottom: 3px;
+        font-weight: 700;
+        border-bottom: 2px rgb(254, 210, 48) solid;
+    }
+    section {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        /* justify-items: center; */
+        /* align-items: center; */
+        color: white;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+        height: 500px;
+    }
+    h1 {
+        padding-top: 7px;
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    h3 {
+        margin-top: 10px;
+        font-size: 23px;
+    }
+    p {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    span {
+        font-weight: 800;
+        cursor: pointer;
+        color: rgb(254, 210, 48);
+    }
+    dl {
+        margin: 0;
+        color: rgb(254, 210, 48);
+    }
+
+    .description {
+        font-size: 13px;
+        color: white;
+    }
+    i {
+        color: rgb(254, 210, 48);
+    }
+    .social-icon {
+        text-align: center;
+        margin-top: 30px;
+        font-size: 25px;
+    }
+    .social-icon a {
+        width: 10px;
+        height: 10px;
+        padding: 10px;
+    }
+    #name {
+        font-weight: 600;
+    }
+    #title {
+        font-weight: 600;
+    }
+    .link-call {
+        text-align: center;
+    }
+
+    #hear {
+        display: inline-block;
+        margin-top: 30px;
+        color: rgb(254, 210, 48);
+        font-size: 20px;
+        /* margin-left: 40%; */
+        padding: 10px 15px;
+    }
+    #hear:hover {
+        background-color: rgb(254, 210, 48);
+        color: black;
+        border-radius: 50px;
+    }
+}
+/* ============================================================= */
+@media (min-width: 379) {
+    header {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        align-items: center;
+    }
+    .logo {
+        font-size: 25px;
+        color: rgb(254, 210, 48);
+        text-decoration: none;
+    }
+    nav {
+        font-size: 15px;
+        display: flex;
+        gap: 40px;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        padding-bottom: 3px;
+    }
+    p {
+        font-size: 15px;
+    }
+    a:hover {
+        color: rgb(254, 210, 48);
+        padding-bottom: 3px;
+        font-weight: 700;
+        border-bottom: 2px rgb(254, 210, 48) solid;
+    }
+    span {
+        cursor: pointer;
+    }
+    h1 {
+        font-size: 40px;
+        margin: 0;
+    }
+    h3 {
+        margin: 0;
+        font-size: 30px;
+    }
+    img {
+        width: 35%;
+        border-radius: 100%;
+    }
+    section {
+        margin-top: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        color: white;
+    }
+    span {
+        font-weight: 800;
+        color: rgb(254, 210, 48);
+    }
+    i {
+        color: rgb(254, 210, 48);
+    }
+    .social-icon {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    .social-icon a {
+        width: 20px;
+        height: 20px;
+        padding: 10px;
+        margin: 0px;
+    }
+    #name {
+        font-weight: 600;
+    }
+    #title {
+        font-weight: 600;
+    }
+    .link-call {
+        text-align: center;
+    }
+    #hear {
+        display: inline-block;
+        margin-top: 30px;
+        color: rgb(254, 210, 48);
+        font-size: 20px;
+    }
+    #hear:hover {
+        background-color: rgb(254, 210, 48);
+        color: black;
+        border-radius: 30px;
+        padding: 10px 15px;
+    }
+}
+/* ======================================================= */
+@media (min-width: 788px) {
+    header {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        align-items: center;
+    }
+    .logo {
+        font-size: 25px;
+        color: rgb(254, 210, 48);
+        text-decoration: none;
+    }
+    nav {
+        font-size: 15px;
+        display: flex;
+        gap: 40px;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+        transition: 0.3s;
+        padding-bottom: 3px;
+    }
+    p {
+        font-size: 15px;
+    }
+    a:hover {
+        color: rgb(254, 210, 48);
+        padding-bottom: 3px;
+        font-weight: 700;
+        border-bottom: 2px rgb(254, 210, 48) solid;
+    }
+    span {
+        cursor: pointer;
+    }
+    h1 {
+        font-size: 40px;
+        margin: 0;
+    }
+    h3 {
+        margin: 0;
+        font-size: 30px;
+    }
+    .image {
+        text-align: center;
+        width: 35%;
+        height: 78%;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+    }
+    section {
+        margin-top: 2%;
+        display: flex;
+        flex-direction: row;
+        /* justify-items: center; */
+        align-items: center;
+        color: white;
+        height: 80vh;
+    }
+    main {
+        margin-left: 50px;
+    }
+    span {
+        font-weight: 800;
+        color: rgb(254, 210, 48);
+    }
+    dl {
+        margin: 0;
+        color: rgb(254, 210, 48);
+    }
+
+    .description {
+        font-size: 13px;
+        color: white;
+    }
+    i {
+        color: rgb(254, 210, 48);
+    }
+    .social-icon {
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    .social-icon a {
+        width: 20px;
+        height: 20px;
+        padding: 10px;
+        margin: 0px;
+    }
+    #name {
+        font-weight: 600;
+    }
+    #title {
+        font-weight: 600;
+    }
+    .link-call {
+        /* text-align: center; */
+        margin-left: 30px;
+    }
+    #hear {
+        display: inline-block;
+        margin-top: 30px;
+        color: rgb(254, 210, 48);
+        font-size: 20px;
+    }
+    #hear:hover {
+        background-color: rgb(254, 210, 48);
+        color: black;
+        border-radius: 30px;
+        padding: 10px 15px;
+    }
+}
