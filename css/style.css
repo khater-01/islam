@@ -66,7 +66,7 @@ span {
     font-weight: 800;
     color: rgb(254, 210, 48);
 }
-dl {
+ul {
     margin: 0;
     color: rgb(254, 210, 48);
 }
@@ -94,13 +94,10 @@ i {
 #title {
     font-weight: 600;
 }
-.link-call {
-    /* text-align: center; */
-    margin-left: 30px;
-}
+
 #hear {
     display: inline-block;
-    margin-top: 30px;
+    /* margin-top: 2%; */
     color: rgb(254, 210, 48);
     font-size: 20px;
 }
@@ -112,10 +109,10 @@ i {
 }
 
 /* ======================================================== */
-@media (max-width: 478px) {
+@media (max-width: 578px) {
     img {
-        width: 185px;
-        height: 167px;
+        width: 50%;
+        height: 50%;
         margin-top: 20px;
     }
     header {
@@ -178,7 +175,7 @@ i {
         cursor: pointer;
         color: rgb(254, 210, 48);
     }
-    dl {
+    ul {
         margin: 0;
         color: rgb(254, 210, 48);
     }
@@ -192,7 +189,7 @@ i {
     }
     .social-icon {
         text-align: center;
-        margin-top: 30px;
+        margin-top: 25px;
         font-size: 25px;
     }
     .social-icon a {
@@ -208,11 +205,12 @@ i {
     }
     .link-call {
         text-align: center;
+        /* margin-left: -30px; */
     }
 
     #hear {
         display: inline-block;
-        margin-top: 30px;
+        margin-top: 20px;
         color: rgb(254, 210, 48);
         font-size: 20px;
         /* margin-left: 40%; */
@@ -225,7 +223,7 @@ i {
     }
 }
 /* ============================================================= */
-@media (min-width: 379) {
+@media (min-width: 579) and (max-width: 987px) {
     header {
         display: flex;
         justify-content: space-around;
@@ -307,8 +305,8 @@ i {
         text-align: center;
     }
     #hear {
-        display: inline-block;
         margin-top: 30px;
+        display: inline-block;
         color: rgb(254, 210, 48);
         font-size: 20px;
     }
@@ -320,7 +318,7 @@ i {
     }
 }
 /* ======================================================= */
-@media (min-width: 788px) {
+@media (min-width: 988px) {
     header {
         display: flex;
         justify-content: space-around;
